@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .abc {
+        width: 70%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      button {
+        padding: 8px 12px;
+        margin: 8px 5px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 40%;
+        margin: 180px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body style="background-image: url('img.jpg'); background-size: contain;color: aliceblue;">
+    <div align="center">
+      <div class="card">
+        <form action="index.html">
+          <h1>Regirstation Form</h1><br>
+          <input type="text" placeholder="First Name" class="abc" /><br />
+          <input type="text" placeholder="Last Name" class="abc" /><br />
+          
+          <input type="email" placeholder="Email" class="abc" /><br />
+          <input type="password" placeholder="Password" class="abc" /><br />
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label>&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="date" name="" id="date" placeholder="Date of Birth"> <label for="date" >D.O.B</label><br> <br>
+          <input type="checkbox" id="terms" />
+          <label for="terms">Terms and Conditions</label><br />
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
